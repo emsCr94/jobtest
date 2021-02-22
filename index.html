@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Search Email</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Common CSS -->
+    <link href="css/common.css" rel="stylesheet">
+
+    <!-- Home CSS -->
+    <link href="css/home.css" rel="stylesheet">
+
+    <!-- Thirdparty css styles -->
+    <!-- FontAwesome -Icon library- -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--Body Sections--> 
+
+    <!--Navbar -->
+    <div class="row justify-content-center">
+        <div class="col-lg-9">
+            <nav class="navbar navbar-light justify-content-between" id="emailsearch-main-navbar">
+                <a class="navbar-brand" href="#"><img src="assets/images/Logo.svg" alt="Company Logo"></a>
+                <form class="form-inline">
+                    <img src="assets/icons/icn_search.svg" alt="search" id="icon-search-nav">
+                    <img src="assets/icons/icn_person.svg" alt="user" id="icon-user-nav">
+                </form>
+            </nav>
+        </div>
+    </div>      
+    <!--/.Navbar -->    
+    <div class="container-fluid main-container">
+         <!--Email Search section-->      
+        <div class="row no-gutters emailsearch-section justify-content-center">
+            <div class="col-md-12 col-sm-12 col-lg-9 d-block d-lg-block emailsearch-form-container text-center">              
+                <h1 class="main-title">Search Any Email Address</h1>
+                <h3 class="main-subtitle"><strong class="calltoaction-subtitle">Start Here</strong> - Look up the owner's name photos and online profiles. See what you find!</h3>
+                <form class="form-emailsearch">
+                    <div class="form-group row no-gutters"> 
+                        <div class="col-sm-12 col-md-9 text-left">
+                            <input type="email" class="form-control form-control-lg" id="input-emailsearch" aria-describedby="emailHelp" placeholder="EMAIL">
+                            <span id="span-emailsearcherror">Please add a valid email address</span>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <button type="button" class="btn btn-primary btn-lg btn-block mb-2" id="btn-emailsearch">GO!</button>       
+                        </div>
+                    </div>   
+                </form>
+                <div class="emailHelp-container">
+                    <img src="assets/icons/lock.svg" alt="lock">
+                    <small id="emailHelp" class="form-text"></i>Enter Any Email Address. They won't be notified</small>
+                </div>             
+            </div> 
+        </div>
+        <!--/.Email Search section --> 
+        <!--Reverse Email section -->   
+        <div class="row emaillookup-section justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-sm-12 col-lg-9 d-block d-lg-block emailsearch-form-container text-center">
+                    <h2 class="emaillookup-section-title">Reverse Email Lookup</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-4 col-md-6 definition-group defgroup_1">
+                    <div class="row definition-row">
+                        <span class="icon-definition incondef_1">1</span>              
+                        <div>
+                            <span class="title-definition titledef_3">Lorem Impsum</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="row definition-row">
+                        <span class="icon-definition icondef_2">2</span>
+                        <div>
+                            <span class="title-definition titledef_2">Lorem Impsum</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="row definition-row">
+                        <span class="icon-definition icondef_3">3</span>
+                        <div>
+                            <span class="title-definition titledef_3">Lorem Impsum</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-6 definition-group defgroup_2">
+                    <div class="row definition-row">
+                        <span class="icon-definition incondef_4">4</span>              
+                        <div>
+                            <span class="title-definition titledef_4">Lorem Impsum</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="row definition-row">
+                        <span class="icon-definition icondef_5">5</span>
+                        <div>
+                            <span class="title-definition titledef_5">Lorem Impsum</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="row definition-row">
+                        <span class="icon-definition icondef_6">6</span>
+                        <div>
+                            <span class="title-definition titledef_6">Lorem Impsum</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>
+        <!--/.Revserse Email section -->
+        <!-- Email Search loader -->  
+        <div class="row justify-content-center emailsearch-loader_container" id="emailsearch-loader">
+            <img src="assets/loaders/loading_spinner.gif" class="emailsearch-loader" alt="">
+            <span class="emailsearch-loader_message">Please wait a moment...</span>   
+        </div>
+        <!--/.Email Search loader --> 
+    </div>
+    
+    <!--Footer --> 
+    <footer class="footer">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-9 text-left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="col-lg-2  col-md-2 text-center">
+                <span>Terms | Privacy</span>
+            </div>
+        </div>
+    </footer>
+    <!--/.Footer -->
+    <!--/.Body Sections -->  
+
+    <!--Scripts --> 
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Page Logic -->
+    <script src="js/home.js"></script>
+
+    <!--/.Scripts --> 
+  </body>
+</html>
