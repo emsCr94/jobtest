@@ -1,0 +1,332 @@
+/* --- Variables --- */
+$base-color: #004A80;
+$second-basecolor:  #F6BC25;
+$footer-textcolor: #999999;
+$section-backgroundcolor: #F8F8F8;
+/* --- ./Variables --- */
+
+/*
+    Body 
+*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $base-color;
+}
+/* ./Body */
+
+/*
+    Footer
+*/
+.footer{
+    background-color: #FFFFFF;
+    color: $footer-textcolor;
+    span {
+        color: $base-color;
+        line-height: 6;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    p {
+        padding-top: 2%;
+        font-size: 15px;
+    }
+}
+/* ./Footer */
+
+
+/*
+    Main containter
+*/
+.main-container{
+    overflow-x: hidden;
+    position: relative;
+}
+/* ./Main container */
+
+/*
+    Main Nav Bar
+*/
+
+#emailsearch-main-navbar{
+    background-color: $base-color;
+    
+}
+
+#icon-search-nav{
+    margin-right: 18px;
+}
+
+#emailsearch-main-navbar{
+    /*
+    padding: 1% 0% 0% 0%;
+    margin: 0% 0% 2% 0%;
+    */
+}
+
+/* ./Main Nav Bar*/
+
+/*
+    Email Search Section
+*/
+.emailsearch-section {
+    background-color: $base-color;
+    height: 100%;
+    text-align: center;
+    margin: 2% 0% 6% 0%;
+
+    #btn-emailsearch{
+        height: 70px;
+        font-size: 24px;
+        color: #004A80;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 180px;
+        background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+        box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+        border-radius: 6px;
+        border-style: none;
+    
+    }
+    #btn-emailsearch:hover{
+        background: #F2DA56;
+        box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+        border-radius: 6px;
+    }
+    #btn-emailsearch:active{
+        background: #F6BC25;
+        box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+        border-radius: 6px;
+    }
+    
+    #emailsearch-main-navbar ul{
+        width: 100%;
+    }
+    
+    #emailHelp{
+        color: $second-basecolor;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 23px;
+    }
+    
+    .emailHelp-container img{
+        float: left; 
+    }
+    
+    .form-emailsearch{
+        margin-top: 5%;
+    }
+    
+    #btn-emailsearch{
+        color: $base-color;
+        background-color: $second-basecolor;
+    }
+    
+    
+    #emailsearch-main-navbar li{
+        display: block;
+        float: left;
+    }
+    
+    #emailsearch-main-navbar li i {
+        color: #F6BC25;
+        font-size: 25px;
+    }
+    
+    
+    .main-title{
+        font-size: 52px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .calltoaction-subtitle{
+        color: #F6BC25;
+    }
+    
+    .main-subtitle{
+        font-size: 24px;
+        color: white;
+    }
+
+    .emailsearch-form-container{
+        p {
+            font-size: 22px;
+            padding-top: 2%;
+            padding-left: 4%;
+            padding-right: 6%;
+        }
+    
+        #input-emailsearch{
+            width: 780px;
+            height: 70px;
+            font-family: Helvetica, sans-serif;
+            font-size: 16px;
+            color: #9B9B9B;
+            letter-spacing: 2px;
+            line-height: 18px;
+            font-weight: bold;
+            border-style: solid;
+            border-width: 3px;
+            background: #FFFFFF;
+            box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+            border-radius: 3px;
+        }
+  
+        #input-emailsearch.email-error{
+            border-color: #DC0015;
+            border-radius: 3px 3px 0 0;
+            background: #FFFFFF;
+            box-shadow: inset 0 -1px 4px 0 rgb(0 0 0 / 20%);
+        }
+  
+        #span-emailsearcherror{
+            visibility: hidden;
+            margin-bottom: 2%;
+        }
+    
+        #span-emailsearcherror.email-error{
+            visibility: visible;
+            text-align: left;
+            border-style: solid;
+            border-color: #DC0015;
+            transform: scaleY(-1);
+            background: #DC0015;
+            transform: scaleY(-1);
+            background: #DC0015;
+            border-radius: 0px 0px 3px 3px;
+            color: white;
+            text-align: left;
+        }
+  }
+}
+/* ./Email Search Section*/
+
+/*
+    Loader
+*/
+.emailsearch-loader_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: $section-backgroundcolor;
+    visibility: hidden;
+}
+
+.emailsearch-loader_message{
+    font-size: 24px;
+    font-weight: bold;
+    color: $base-color;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 43%;
+}
+
+.emailsearch-loader{
+    position: absolute;
+    margin-top: 30%;
+    width: 11%;
+}
+/* ./Loader */
+
+
+/*
+     --> Responsive Styles <--
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*
+        Email Search Section
+    */
+    .emailsearch-section {
+        .main-title{
+            font-size: 38px;
+        }
+
+        .main-subtitle{
+            font-size: 18px;
+        }
+
+        #btn-emailsearch{ 
+            width: 280px;
+            height: 50px;
+        }
+
+        .emailsearch-form-container{
+            #input-emailsearch{
+                width: 280px;
+                height: 50px;
+            }
+        }
+        
+    }
+    /* ./Email Search Section*/
+
+    /*
+        Footer
+    */
+
+    .footer{
+        p {
+            padding: 17px;
+        }
+    }
+
+    /* ./Footer*/
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    /*
+        Email Search Section
+    */
+    .emailsearch-section {
+        .main-title{
+            font-size: 48px;
+        }
+
+        .main-subtitle{
+            font-size: 18px;
+        }
+
+        #btn-emailsearch{ 
+            width: 180px;
+            height: 70px;
+        }
+
+        .emailsearch-form-container{
+            #input-emailsearch{
+                width: 518px;
+                height: 70px;
+            }
+        }
+        
+    }
+    /* ./Email Search Section*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* ---> ./Responsive Styles <--- */
+
+
+

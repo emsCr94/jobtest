@@ -1,0 +1,191 @@
+/*
+    Email Results Section
+*/
+
+.emailresults-section{
+    text-align: center;
+    background-color: #F8F8F8;
+
+    p{
+        text-align: left;
+    }
+
+    .result-count_container{
+        padding: 4%;
+    
+        .result-counter{
+            font-size: 52px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color:  #004A80;
+        }
+    }
+    
+    .result-person_container{
+        margin-bottom: 3%;
+        
+        .result-help{
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+        .person-info{
+            border-radius: 30px;
+            background: #FFFFFF;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+            border-radius: 30px;
+    
+            p{
+                font-size: 18px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            ul{
+                list-style: none;
+                padding: 0;
+            }
+    
+            .person-info-phonenumbers li{
+                color:  #004A80;
+            }
+    
+            img{
+                border-radius: 50%;
+                width: 50px;
+                line-height: 1.2;
+                background-color: #004A80;
+            }
+    
+            #icon-user-personinfo {
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                font-size: 48px;
+                line-height: 1.7;
+                background-color: #004A80;
+                color: #F6BC25;
+                font-weight: bold;
+                display: block;
+                margin: 0 auto;
+            }
+                    
+            h2{
+                font-size: 22px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                color:  #004A80;
+            }
+    
+            h3{
+                font-size: 32px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                color:  #004A80;
+            }
+        } 
+        
+    }
+
+}
+
+
+/* /.Email Results Section */
+
+
+/*
+     --> Responsive Styles <--
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .emailresults-section{
+        text-align: center;   
+        p{
+            text-align: left;
+        }
+    
+        .result-count_container{
+            .result-counter{
+                font-size: 38px;          
+            }
+            p{
+                text-align: left;
+                color: #4A4A4A;
+                font-size: 18px;
+            }
+        }
+
+        .result-person_container{
+            
+        
+            .person-info{
+                
+                h2{
+                    font-size: 20px;                  
+                }
+
+            }
+        }
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .emailresults-section{
+        p{
+            text-align: left;
+        }
+    
+        .result-count_container{
+            .result-counter{
+                font-size: 38px;          
+            }
+            p{
+                text-align: left;
+                color: #4A4A4A;
+                font-size: 20px;
+            }
+        }
+
+        .result-person_container{
+            
+        
+            .person-info{
+                
+                h2{
+                    font-size: 20px;                  
+                }
+
+                #icon-user-personinfo {
+                    width: 63px;
+                    height: 63px;
+                    border-radius: 50%;
+                    font-size: 36px;
+                    line-height: 1.6;
+                    margin-top: 22%;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* ---> ./Responsive Styles <--- */

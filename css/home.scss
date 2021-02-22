@@ -1,0 +1,207 @@
+/* --- Variables --- */
+$base-color: #004A80;
+$second-basecolor:  #F6BC25;
+$footer-textcolor: #999999;
+$section-backgroundcolor: #F8F8F8;
+/* --- ./Variables --- */
+
+/*
+    Email Look Up Section
+*/
+.emaillookup-section{
+    text-align: center;
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+
+    p {
+        text-align: left;
+        font-size: 22px;
+    }
+
+    .definition-row{
+        margin-left: 6px;
+    }
+
+    .definition-group {
+        .definition-row {
+            div{
+                display: block;
+                float: left;
+                width: 80%;
+                text-align: left;
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    .emaillookup-section-title{
+        font-size: 38px;
+        color:  $base-color;
+        margin-top: 4%;
+        font-weight: bold;
+    }
+
+    .icon-definition {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        font-size: 48px;
+        line-height: 1.2;
+        background-color: $base-color;
+        color: $second-basecolor;
+        font-weight: bold;
+        display: block;
+        float: left;
+    }
+    .title-definition{
+        font-size: 20px;
+        font-weight: bold;
+        color: $base-color;
+    }
+    
+    .definition-group{
+        margin: 3%;
+    }
+    
+    .defgroup_1 div p{
+        padding: 4%;
+    }
+    
+    .defgroup_1 div span{
+        padding: 4%;
+    }
+    
+    .defgroup_2 div p{
+        padding: 4%;
+    }
+    
+    .defgroup_2 div span{
+        padding: 4%;
+    }
+
+}
+
+/* ./Look Up Section */
+
+
+/*
+     --> Responsive Styles <--
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /*
+        Look Up Section
+    */
+    .emaillookup-section{
+        p {
+            font-size: 18px;
+            padding: 18px;
+        }
+
+        .icon-definition {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 26px;
+            line-height: 1;
+        }
+
+        .definition-group {       
+            .definition-row {
+                div{                   
+                    p {
+                        font-size: 16px;
+                        padding: 13px;
+                    }
+                }
+
+                .title-definition {
+                    padding: 13px;
+                }
+
+            }
+        }
+        
+    }
+    /* /.Look Up Section */
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    /*
+        Look Up Section
+    */
+    .emaillookup-section{
+        p {
+            font-size: 20px;
+            padding: 32px;
+        }
+
+        
+        .emaillookup-section-title{
+            font-size: 48px;
+        }
+
+        .icon-definition {
+            width: 63px;
+            height: 63px;
+            border-radius: 50%;
+            font-size: 33px;
+            line-height: 1;
+        }
+
+        .defgroup_1{
+            padding-left: 5%;
+        }
+
+        .defgroup_2{
+            padding-left: 1%;
+        }
+
+        .definition-group {
+            margin: 0%;
+
+            .definition-row {
+
+                div{              
+                    p {
+                        font-size: 16px;
+                        padding: 13px;
+                    }
+                }
+
+                .title-definition {
+                    padding: 13px;
+                }
+
+            }
+        }
+        
+    }
+    /* /.Look Up Section */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* ---> ./Responsive Styles <--- */
+
+
+
+

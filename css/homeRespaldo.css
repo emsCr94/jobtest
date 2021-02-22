@@ -1,0 +1,343 @@
+/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #004A80;
+}
+.footer{
+    background-color: #FFFFFF;
+    color: #999999;
+}
+
+.footer span {
+    color: #004A80;
+    line-height: 6;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer p {
+    padding-top: 2%;
+    font-size: 15px;
+}
+
+.main-container{
+    overflow-x: hidden;
+    position: relative;
+}
+.emailsearch-section{
+    background-color: #004A80;
+    height: 100%;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 6%;
+    margin-top: 2%;
+}
+#emailsearch-main-navbar{
+    background-color: #004A80;
+}
+
+.emailsearch-loader_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: #F8F8F8;
+    visibility: hidden;
+}
+
+.emailsearch-loader_message{
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 43%;
+}
+.emailsearch-loader{
+    position: absolute;
+    margin-top: 30%;
+    width: 11%;
+}
+
+#icn-search-nav{
+    margin-right: 18px;
+}
+
+#emailsearch-main-navbar{
+    margin: 0;
+    padding: 0;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+*/
+
+.emaillookup-section{
+    text-align: center;
+    background-color:#E6E6E6;
+}
+
+.emaillookup-section p{
+    text-align: left;
+}
+
+.definition-group .definition-row div{
+    display: block;
+    float: left;
+    width: 80%;
+    text-align: left;
+    margin-left: 1%;
+}
+
+.definition-group div p{
+    font-size: 18px;
+}
+
+.icon-definition {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 48px;
+    line-height: 1.2;
+    background-color: #004A80;
+    color: #F6BC25;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+.title-definition{
+    font-size: 20px;
+    font-weight: bold;
+    color: #004A80;
+}
+
+.definition-group{
+    margin: 3%;
+}
+
+.defgroup_1 div p{
+    padding: 4%;
+}
+
+.defgroup_1 div span{
+    padding: 4%;
+}
+
+.defgroup_2 div p{
+    padding: 4%;
+}
+
+.defgroup_2 div span{
+    padding: 4%;
+}
+
+.emaillookup-section-title{
+    font-size: 38px;
+    color:  #004A80;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+/*
+.emailsearch-form-container{
+    
+}
+
+.emailsearch-form-container p {
+    font-size: 22px;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 6%;
+}
+
+#input-emailsearch{
+    width: 780px;
+    height: 70px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+}
+
+#input-emailsearch.email-error{
+    border-color: #DC0015;
+    border-radius: 3px 3px 0 0;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgb(0 0 0 / 20%);
+}
+
+#span-emailsearcherror{
+    visibility: hidden;
+}
+
+#span-emailsearcherror.email-error{
+    visibility: visible;
+    text-align: left;
+    border-style: solid;
+    border-color: #DC0015;
+    transform: scaleY(-1);
+    background: #DC0015;
+    transform: scaleY(-1);
+    background: #DC0015;
+    border-radius: 0px 0px 3px 3px;
+    color: white;
+    text-align: left;
+}
+
+/*
+.email-error{
+    text-align: left;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #DC0015;
+    transform: scaleY(-1);
+    background: #DC0015;
+    border-width: 3px;
+    transform: scaleY(-1);
+    background: #DC0015;
+    border-radius: 0px 30pxx 3px 3px;
+    border-radius: 0px3px3px3px;
+    border-radius: 0px 3px 3px 3px;
+    color: white;
+    text-align: left;
+}
+*/
+
+#btn-emailsearch{
+    height: 70px;
+    font-size: 24px;
+    color: #004A80;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 180px;
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+    border-style: none;
+
+}
+#btn-emailsearch:hover{
+    background: #F2DA56;
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+}
+#btn-emailsearch:active{
+    background: #F6BC25;
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+}
+
+#emailsearch-main-navbar ul{
+    width: 100%;
+}
+
+#emailHelp{
+    color: #F6BC25;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.emailHelp-container img{
+    float: left; 
+}
+
+.form-emailsearch{
+    margin-top: 2%;
+}
+
+#btn-emailsearch{
+    color: #004A80;
+    background-color: #F6BC25;
+}
+
+
+#emailsearch-main-navbar li{
+    display: block;
+    float: left;
+}
+
+#emailsearch-main-navbar li i {
+    color: #F6BC25;
+    font-size: 25px;
+}
+
+
+.main-title{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+}
+
+.calltoaction-subtitle{
+    color: #F6BC25;
+}
+
+.main-subtitle{
+    font-size: 24px;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-title{
+        font-size: 38px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .emaillookup-section-title{
+        font-size: 38px;
+        color:  #004A80;
+        margin-top: 4%;
+        font-weight: bold;
+    }
+
+    #input-emailsearch{
+        font-size: 22px;
+    }
+    
+    #btn-emailsearch{
+        margin-top: 4%;
+        font-size: 22px;
+    }
+
+    #emailHelp{
+        margin-left: 9%;
+        line-height: 1.2;
+        color: #F6BC25;  
+    }
+
+    .definition-group div{
+        width: 80%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,265 @@
+/* --- Variables --- */
+/* --- ./Variables --- */
+/*
+    Body 
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #004A80;
+}
+
+/* ./Body */
+/*
+    Footer
+*/
+.footer {
+  background-color: #FFFFFF;
+  color: #999999;
+}
+.footer span {
+  color: #004A80;
+  line-height: 6;
+  font-weight: bold;
+  font-size: 14px;
+}
+.footer p {
+  padding-top: 2%;
+  font-size: 15px;
+}
+
+/* ./Footer */
+/*
+    Main containter
+*/
+.main-container {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ./Main container */
+/*
+    Main Nav Bar
+*/
+#emailsearch-main-navbar {
+  background-color: #004A80;
+}
+
+#icon-search-nav {
+  margin-right: 18px;
+}
+
+#emailsearch-main-navbar {
+  /*
+  padding: 1% 0% 0% 0%;
+  margin: 0% 0% 2% 0%;
+  */
+}
+
+/* ./Main Nav Bar*/
+/*
+    Email Search Section
+*/
+.emailsearch-section {
+  background-color: #004A80;
+  height: 100%;
+  text-align: center;
+  margin: 2% 0% 6% 0%;
+}
+.emailsearch-section #btn-emailsearch {
+  height: 70px;
+  font-size: 24px;
+  color: #004A80;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 180px;
+  background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-style: none;
+}
+.emailsearch-section #btn-emailsearch:hover {
+  background: #F2DA56;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+}
+.emailsearch-section #btn-emailsearch:active {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+}
+.emailsearch-section #emailsearch-main-navbar ul {
+  width: 100%;
+}
+.emailsearch-section #emailHelp {
+  color: #F6BC25;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 23px;
+}
+.emailsearch-section .emailHelp-container img {
+  float: left;
+}
+.emailsearch-section .form-emailsearch {
+  margin-top: 5%;
+}
+.emailsearch-section #btn-emailsearch {
+  color: #004A80;
+  background-color: #F6BC25;
+}
+.emailsearch-section #emailsearch-main-navbar li {
+  display: block;
+  float: left;
+}
+.emailsearch-section #emailsearch-main-navbar li i {
+  color: #F6BC25;
+  font-size: 25px;
+}
+.emailsearch-section .main-title {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+}
+.emailsearch-section .calltoaction-subtitle {
+  color: #F6BC25;
+}
+.emailsearch-section .main-subtitle {
+  font-size: 24px;
+  color: white;
+}
+.emailsearch-section .emailsearch-form-container p {
+  font-size: 22px;
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 6%;
+}
+.emailsearch-section .emailsearch-form-container #input-emailsearch {
+  width: 780px;
+  height: 70px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #9B9B9B;
+  letter-spacing: 2px;
+  line-height: 18px;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 3px;
+  background: #FFFFFF;
+  box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+.emailsearch-section .emailsearch-form-container #input-emailsearch.email-error {
+  border-color: #DC0015;
+  border-radius: 3px 3px 0 0;
+  background: #FFFFFF;
+  box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.emailsearch-section .emailsearch-form-container #span-emailsearcherror {
+  visibility: hidden;
+  margin-bottom: 2%;
+}
+.emailsearch-section .emailsearch-form-container #span-emailsearcherror.email-error {
+  visibility: visible;
+  text-align: left;
+  border-style: solid;
+  border-color: #DC0015;
+  transform: scaleY(-1);
+  background: #DC0015;
+  transform: scaleY(-1);
+  background: #DC0015;
+  border-radius: 0px 0px 3px 3px;
+  color: white;
+  text-align: left;
+}
+
+/* ./Email Search Section*/
+/*
+    Loader
+*/
+.emailsearch-loader_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #F8F8F8;
+  visibility: hidden;
+}
+
+.emailsearch-loader_message {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004A80;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 43%;
+}
+
+.emailsearch-loader {
+  position: absolute;
+  margin-top: 30%;
+  width: 11%;
+}
+
+/* ./Loader */
+/*
+     --> Responsive Styles <--
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*
+      Email Search Section
+  */
+  .emailsearch-section .main-title {
+    font-size: 38px;
+  }
+  .emailsearch-section .main-subtitle {
+    font-size: 18px;
+  }
+  .emailsearch-section #btn-emailsearch {
+    width: 280px;
+    height: 50px;
+  }
+  .emailsearch-section .emailsearch-form-container #input-emailsearch {
+    width: 280px;
+    height: 50px;
+  }
+
+  /* ./Email Search Section*/
+  /*
+      Footer
+  */
+  .footer p {
+    padding: 17px;
+  }
+
+  /* ./Footer*/
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  /*
+      Email Search Section
+  */
+  .emailsearch-section .main-title {
+    font-size: 48px;
+  }
+  .emailsearch-section .main-subtitle {
+    font-size: 18px;
+  }
+  .emailsearch-section #btn-emailsearch {
+    width: 180px;
+    height: 70px;
+  }
+  .emailsearch-section .emailsearch-form-container #input-emailsearch {
+    width: 518px;
+    height: 70px;
+  }
+
+  /* ./Email Search Section*/
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* ---> ./Responsive Styles <--- */
+
+/*# sourceMappingURL=common.css.map */
